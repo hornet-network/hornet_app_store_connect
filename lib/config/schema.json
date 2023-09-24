@@ -321,8 +321,23 @@
     },
     {
       "http_method": "get",
-      "url": "https://api.appstoreconnect.apple.com/v1/apps/{id}/appPricePoints",
-      "alias": "app_price_points"
+      "url": "https://api.appstoreconnect.apple.com/v1/apps/{id}/subscriptionGroups",
+      "alias": "subscription_groups"
+    },
+    {
+      "http_method": "get",
+      "url": "https://api.appstoreconnect.apple.com/v1/subscriptionGroups/{id}",
+      "alias": "subscription_group"
+    },
+    {
+      "http_method": "get",
+      "url": "https://api.appstoreconnect.apple.com/v1/subscriptionGroups/{id}/subscriptions",
+      "alias": "subscription_group_subscriptions"
+    },
+    {
+      "http_method": "get",
+      "url": "https://api.appstoreconnect.apple.com/v1/subscriptions/{id}/prices",
+      "alias": "subscription_prices"
     },
     {
       "http_method": "get",
